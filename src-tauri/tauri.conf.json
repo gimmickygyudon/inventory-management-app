@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "identifier": "com.gimmi.inventory-management-app",
   "build": {
-  "beforeDevCommand": "cd nuxt-app && npm run dev",
-  "devUrl": "http://localhost:3000",
-  "beforeBuildCommand": "cd nuxt-app && npm run build",
-  "frontendDist": "../src/.output/public"
+    "beforeDevCommand": "cd src && npm run dev",
+    "devUrl": "http://localhost:3000",
+    "beforeBuildCommand": "cd src && npm run build",
+    "frontendDist": "../src/.output/public"
   },
   "app": {
     "withGlobalTauri": true,
