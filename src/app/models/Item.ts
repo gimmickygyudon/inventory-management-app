@@ -1,4 +1,4 @@
-import { storeItem } from "~/sql/item";
+import { DatabaseDesktopItem } from "~/sql/desktop/item";
 import type { Coordinate, Place } from "./Location";
 
 export class Item {
@@ -57,7 +57,9 @@ export class Item {
   }
 
   async save(): Promise<void> {
-    return await storeItem(this);
+    // Placeholder for save logic, e.g., saving to a database
+    console.log(`Saving item: ${this.toJson()}`);
+    return await new DatabaseDesktopItem(this).store();
   }
 }
 
