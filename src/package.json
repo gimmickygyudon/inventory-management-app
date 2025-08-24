@@ -12,10 +12,12 @@
   "dependencies": {
     "@nuxt/image": "^1.11.0",
     "@nuxt/ui": "^3.3.2",
+    "@pinia/nuxt": "^0.11.2",
     "@tresjs/cientos": "^4.3.1",
     "@tresjs/nuxt": "^4.0.0",
     "@unhead/vue": "^2.0.14",
     "nuxt": "^4.0.3",
+    "pinia": "^3.0.3",
     "three": "^0.179.1",
     "vue": "^3.5.18"
   },
